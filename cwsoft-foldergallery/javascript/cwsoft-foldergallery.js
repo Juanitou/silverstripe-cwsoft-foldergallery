@@ -15,8 +15,8 @@
 (function($) {
 	$(document).ready(function(){
 		var gallery = $("a[rel='album']").colorbox({
-			transition: 'fade', 	// fade, elastic, none
-			speed: 300, 
+			transition: 'elastic', 	// fade, elastic, none
+			speed: 500, 
 			maxWidth: '800px', 
 			maxHeight: '800px',
 			current: '{current}/{total}',
